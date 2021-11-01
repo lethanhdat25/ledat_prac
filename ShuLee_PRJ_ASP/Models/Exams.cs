@@ -20,7 +20,6 @@ namespace ShuLee_PRJ_ASP.Models
         [DisplayFormat(DataFormatString = "{0:hh\\:mm}", ApplyFormatInEditMode = true)]
         public TimeSpan? Start { get; set; }
 
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Required(ErrorMessage = "Không được thiếu Exam Date")]
         [DataType(DataType.Date)]
         public DateTime ExamDate { get; set; }
